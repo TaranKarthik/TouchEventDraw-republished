@@ -1,0 +1,61 @@
+.body_backgorund {
+    background: linear-gradient(45deg, black, #272727);
+
+    background-position: center;
+    color: white;
+    font-family: "Work Sans";
+}
+
+body {
+    cursor: pointer;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+#myCanvas {
+    border-width: 4px;
+    background-color: white;
+    border-color: whitesmoke;
+    border-style: solid;
+
+}
+
+#width_of_line,
+#color_text {
+    margin-left: 20px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background: #fafafa;
+    color: #000000;
+    font-family: "Work Sans";
+}
+
+#buttonClear {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    width: 10rem;
+    font-family: "Work Sans";
+    transition: all 0.6s ease;
+}
+
+#buttonClear:hover {
+    color: white;
+    background: #272727;
+}
+
+input {
+    margin-right: 20px;
+}
+
+#color_text:focus,
+#width_of_line:focus {
+    outline: none;
+    border: 3px solid white;
+}
